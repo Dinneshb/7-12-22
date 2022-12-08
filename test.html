@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life sucks</title>
+</head>
+<body>
+    <div id="root">
+        <p class="para"></p>
+        <p class="para"></p>
+        <p class="para"></p>
+        <p class="para"></p>
+        <p class="para">yaaay <i>AND</i></p>
+        <p class="para"></p>
+        <p class="para"></p>
+        <p class="para"></p>
+    </div>
+</body>
+<script>
+    console.log("Life sucks");
+    document.title= "Life sucks"
+    let message= 'Life sucks'
+   // alert(message);
+    document.getElementsByClassName("para")[0].innerHTML = "Life sucks"
+    document.getElementsByClassName("para")[1].innerHTML = "Grace"
+    document.getElementsByClassName("para")[2].innerHTML = "Me myself and I"
+    document.getElementsByClassName("para")[6].innerHTML = "Manish"
+
+    let para = document.getElementsByClassName("para")[4].innerHTML
+    
+    console.log(para)
+</script>
+</html>
